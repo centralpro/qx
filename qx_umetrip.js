@@ -28,7 +28,7 @@ var body = $response.body;
 // obj['result'] = 0;
 // body = JSON.stringify(obj);
 
-console.log('QX_umetrip.js');
+console.log("QX_umetrip.js");
 console.log(body);
 
 $done(body);

@@ -1,6 +1,6 @@
 const body = $response.body;
 const $tool = tool();
-const consolelog = ture;
+const consolelog = true;
 
 // let obj = JSON.parse(body);
 // body = JSON.stringify(obj);

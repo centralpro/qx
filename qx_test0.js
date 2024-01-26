@@ -5,7 +5,7 @@ const consolelog = true;
 
 // let obj = JSON.parse(body);
 // body = JSON.stringify(obj);
-console.log(body);
+console.log(JSON.stringify(body, null, 2));
 $done();
 
 function request_history_price(share_url, callback) {

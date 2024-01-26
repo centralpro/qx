@@ -28,5 +28,5 @@ var obj = JSON.parse(body);
 // obj['result'] = 0;
 // body = JSON.stringify(obj);
 
-console.log(body);
+console.log(obj);
 $done(body);

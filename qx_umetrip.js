@@ -18,12 +18,13 @@
 // Response status can also be optional changed by using $done({body: modifiedBody, headers: modifiedHeaders, status: modifiedStatus}), the modifiedStatus should be like "HTTP/1.1 200 OK"
 
 // http://bkclient.umetrip.com.cn/gateway/api/umetrip/native url script-response-body 
+// ^http://bkclient\.umetrip\.com\.cn/gateway/api/umetrip/native url script-response-body https://raw.githubusercontent.com/centralpro/qx/main/qx_umetrip.js
 
 var body = $response.body;
-var obj = JSON.parse(body);
+// var obj = JSON.parse(body);
 
 // obj['result'] = 0;
-body = JSON.stringify(obj);
+// body = JSON.stringify(obj);
 
 console.log(body);
 

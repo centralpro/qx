@@ -2,10 +2,10 @@ const body = $response.body;
 const $tool = tool();
 const consolelog = ture;
 
-let obj = JSON.parse(body);
-body = JSON.stringify(obj);
+// let obj = JSON.parse(body);
+// body = JSON.stringify(obj);
 console.log(body);
-$done(body);
+$done();
 
 function request_history_price(share_url, callback) {
     const options = {

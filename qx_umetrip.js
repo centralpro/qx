@@ -21,14 +21,12 @@
 // ^http://bkclient\.umetrip\.com\.cn/gateway/api/umetrip/native url script-response-body https://raw.githubusercontent.com/centralpro/qx/main/qx_umetrip.js
 
 
+console.log("QX_umetrip.js");
 var body = $response.body;
-
-// var obj = JSON.parse(body);
+var obj = JSON.parse(body);
 
 // obj['result'] = 0;
 // body = JSON.stringify(obj);
 
-console.log("QX_umetrip.js");
 console.log(body);
-
 $done(body);
